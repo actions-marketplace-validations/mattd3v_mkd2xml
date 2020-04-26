@@ -7,7 +7,7 @@ name: 'XML RFC from Markdown'
 description: 'Convert Markdown formatted RFC to XML.'
 
 inputs:
-  path:
+  filename:
     description: 'Path to Markdown formatted RFC file.'
     required: true
 
