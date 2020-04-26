@@ -1,0 +1,22 @@
+# action.yml
+# Author: Matt Dumler <mattd3v@pm.me> (https://mattdumler.app)
+# Edited: April 26, 2020
+# License: MIT
+
+name: 'XML RFC from Markdown'
+description: 'Convert Markdown formatted RFC to XML.'
+
+inputs:
+  path:
+    description: 'Path to Markdown formatted RFC file.'
+    required: true
+
+outputs:
+  rfc:
+    description: 'Text formatted RFC file.'
+
+runs:
+  using: 'Docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
