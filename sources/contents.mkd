@@ -1,0 +1,25 @@
+Introduction
+============
+
+This document defines a data model for resume data in electronic human
+resource and professional networking applications and systems.
+
+Comments are solicited and should be addressed to the author(s).
+
+The representation of this data model is defined in the I-JSON format
+{{!RFC7493}}, which is a strict subset of the JavaScript Object Notation
+(JSON) Data Interchange Format {{?RFC8259}}.  Using JSON is mostly a
+pragmatic choice: its widespread use makes JSResume easier to adopt,
+and the availability of production-ready JSON implementations
+eliminates a whole category of parser-related interoperability
+issues.
+
+Security Considerations
+=======================
+
+TBD
+
+IANA Considerations
+===================
+
+TBD

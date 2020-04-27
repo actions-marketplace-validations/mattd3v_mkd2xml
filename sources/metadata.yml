@@ -1,0 +1,19 @@
+title: 'JSResume: A JSON representation of resume data'
+abbrev: JSResume
+docname: draft-dumler-jsresume-00
+date: 2020-04-23
+wg: Independent Submission
+category: std
+
+pi: [toc, sortrefs, symrefs]
+
+author:
+  ins: M. Dumler
+  name: Matt Dumler
+  org: University of Texas at Dallas
+  street: 800 W Campbell Rd
+  city: Richardson
+  code: TX 750230
+  country: United States of America
+  phone: +1469-878-1470
+  email: mattd3v@protonmail.com
