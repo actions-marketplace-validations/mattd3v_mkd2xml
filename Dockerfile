@@ -4,7 +4,7 @@
 # License: MIT
 
 # Ruby container image
-FROM ruby:lts
+FROM ruby:2.7
 
 # Copy entrypoint file
 COPY entrypoint.sh /entrypoint.sh 
