@@ -10,4 +10,4 @@ gem install kramdown-rfc2629
 
 # Run Markdown file through RFC build pipeline
 # to produce artifact for Internet-Draft submission.
-cat $1 | kramdown-rfc2629
+kramdown-rfc2629 $1 > build.xml
